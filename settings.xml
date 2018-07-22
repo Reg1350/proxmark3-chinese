@@ -1157,7 +1157,16 @@
     <section title="帮助一般" tooltip="帮助命令显示PM3可用命令。" uniqueId="1h">
       <item type="button" text="帮助" tooltip="Press button to obtain the 帮助 info" action0="help" />
     </section>
-    <section title="exit" tooltip="exit了量子客户" uniqueId="99">
+    <section title="exit" tooltip="退出" uniqueId="99">
       <item type="button" text="exit" tooltip="Press button to exit PM3 client (after this you need to re-select COM port to re-use PM3)" action0="exit" />
     </section>
+      <section title="关于——汉化团队" tooltip="关于" uniqueId="910">
+     <item type="label" label="
+     本项目是开源项目
+     项目地址：https://github.com/w1109790800/proxmark3-chinese
+     欢迎加入Proxmark3-汉化团队，群号码：371012605
+
+     " />
+      </section>
+    
   </pm3>
