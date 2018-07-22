@@ -1,0 +1,1016 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Languages>
+  <Language ID="en" Name="English">
+    <Strings>
+      <String ID="128" Data="STDU XMLEditor" />
+      <String ID="129" Data="Untitled" />
+      <String ID="130" Data="Do you want to save changes to file: %s" />
+      <String ID="204" Data="XML Files (*.xml)|*.xml|All files|*.*||" />
+      <String ID="205" Data="XML Files (*.xml)|*.xml|All files|*.*||" />
+      <String ID="206" Data="Recent Files" />
+      <String ID="207" Data="You may open an existing document by double click here..." />
+      <String ID="208" Data="Scheme Files (*.xsd)|*.xsd|All files|*.*||" />
+      <String ID="209" Data="The file '%s' cannot be opened and will be removed from the Recent list." />
+      <String ID="210" Data="#Comment" />
+      <String ID="211" Data="New_Element" />
+      <String ID="212" Data="New_Attribute" />
+      <String ID="213" Data="Untitled" />
+      <String ID="214" Data="Untitled %d" />
+      <String ID="215" Data="Error processing file: %s.\n%s.\nLine: %d, position: %d." />
+      <String ID="216" Data="Can not save file: %s.\nError: %s." />
+      <String ID="217" Data="Scroll left" />
+      <String ID="218" Data="Scroll right" />
+      <String ID="219" Data="Close" />
+      <String ID="220" Data="Cancel" />
+      <String ID="221" Data="Please, restart application to apply changes." />
+      <String ID="222" Data="The specified text was not found." />
+      <String ID="223" Data="XSLT Files (*.xslt)|*.xslt|All files|*.*||" />
+      <String ID="224" Data="All files|*.*||" />      
+      <String ID="32768" Data="Name" />
+      <String ID="32769" Data="Value" />
+      <String ID="32773" Data="Exit editor" />
+      <String ID="32786" Data="Save all opened documents" />
+      <String ID="32811" Data="Copy name of the selected item to clipboard" />
+      <String ID="32812" Data="Copy value of the selected item to clipboard" />
+      <String ID="32814" Data="Show/hide prefix of items name" />
+      <String ID="32838" Data="Renames the selected item" />
+      <String ID="32839" Data="Edits value of the selected item" />
+      <String ID="32860" Data="Inserts new element before the selected item" />
+      <String ID="32861" Data="Inserts new element after the selected item" />
+      <String ID="32862" Data="Inserts new element as child of the selected item" />
+      <String ID="32863" Data="Inserts new attribute to the selected item" />
+      <String ID="32866" Data="Inserts new comment before the selected item" />
+      <String ID="32867" Data="Inserts new comment after the selected item" />
+      <String ID="32868" Data="Inserts new comment as child of the selected item" />
+      <String ID="32869" Data="Duplicate the selected item" />
+      <String ID="32874" Data="Inserts new text before the selected item" />
+      <String ID="32875" Data="Inserts new text after the selected item" />
+      <String ID="32876" Data="Inserts new text as child of the selected item" />
+      <String ID="32891" Data="Copy the selected item to clipboard as XML string" />
+      <String ID="32893" Data="Copy XPath of the selected item to clipboard as XML string" />
+      <String ID="32894" Data="Validate the active document by scheme..." />
+      <String ID="32895" Data="Transform the active document to new file by XSL..." />
+      <String ID="40000" Data="Unexpected end of input" />
+      <String ID="40001" Data="Unrecognized encoding" />
+      <String ID="40002" Data="Unable to switch the encoding" />
+      <String ID="40003" Data="Unrecognized input signature" />
+      <String ID="40004" Data="Whitespace expected" />
+      <String ID="40005" Data="Semicolon expected" />
+      <String ID="40006" Data="'>' expected" />
+      <String ID="40007" Data="Quote expected" />
+      <String ID="40008" Data="Equal expected" />
+      <String ID="40009" Data="Well-formedness constraint: no '&lt;' in attribute value" />
+      <String ID="40010" Data="Hexadecimal digit expected" />
+      <String ID="40011" Data="Decimal digit expected" />
+      <String ID="40012" Data="'[' expected" />
+      <String ID="40013" Data="'(' expected" />
+      <String ID="40014" Data="Illegal xml character" />
+      <String ID="40015" Data="Illegal name character" />
+      <String ID="40016" Data="Incorrect document syntax" />
+      <String ID="40017" Data="Incorrect CDATA section syntax" />
+      <String ID="40018" Data="Incorrect comment syntax" />
+      <String ID="40019" Data="Incorrect conditional section syntax" />
+      <String ID="40020" Data="Incorrect ATTLIST declaration syntax" />
+      <String ID="40021" Data="Incorrect DOCTYPE declaration syntax" />
+      <String ID="40022" Data="Incorrect ELEMENT declaration syntax" />
+      <String ID="40023" Data="Incorrect ENTITY declaration syntax" />
+      <String ID="40024" Data="Incorrect NOTATION declaration syntax" />
+      <String ID="40025" Data="NDATA expected" />
+      <String ID="40026" Data="PUBLIC expected" />
+      <String ID="40027" Data="SYSTEM expected" />
+      <String ID="40028" Data="Name expected" />
+      <String ID="40029" Data="One root element" />
+      <String ID="40030" Data="Well-formedness constraint: element type match" />
+      <String ID="40031" Data="Well-formedness constraint: unique attribute spec" />
+      <String ID="40032" Data="Text/xmldecl not at the beginning of input" />
+      <String ID="40033" Data="Leading &quot;xml&quot;" />
+      <String ID="40034" Data="Incorrect text declaration syntax" />
+      <String ID="40035" Data="Incorrect xml declaration syntax" />
+      <String ID="40036" Data="Incorrect encoding name syntax" />
+      <String ID="40037" Data="Incorrect public identifier syntax" />
+      <String ID="40038" Data="Well-formedness constraint: pes in internal subset" />
+      <String ID="40039" Data="Well-formedness constraint: pes between declarations" />
+      <String ID="40040" Data="Well-formedness constraint: no recursion" />
+      <String ID="40041" Data="Entity content not well formed" />
+      <String ID="40042" Data="Well-formedness constraint: undeclared entity" />
+      <String ID="40043" Data="Well-formedness constraint: parsed entity" />
+      <String ID="40044" Data="Well-formedness constraint: no external entity references" />
+      <String ID="40045" Data="Incorrect processing instruction syntax" />
+      <String ID="40046" Data="Incorrect system identifier syntax" />
+      <String ID="40047" Data="'?' expected" />
+      <String ID="40048" Data="No ']]>' in element content" />
+      <String ID="40049" Data="Not all chunks of value have been read" />
+      <String ID="40050" Data="DTD was found but is prohibited" />
+      <String ID="40051" Data="xml:space attribute with invalid value" />
+      <String ID="40052" Data="Illegal qualified name character" />
+      <String ID="40053" Data="Multiple colons in qualified name" />
+      <String ID="40054" Data="Colon in name" />
+      <String ID="40055" Data="Declared prefix" />
+      <String ID="40056" Data="Undeclared prefix" />
+      <String ID="40057" Data="Non default namespace with empty uri" />
+      <String ID="40058" Data="&quot;xml&quot; prefix is reserved and must have the http://www.w3.org/XML/1998/namespace URI" />
+      <String ID="40059" Data="&quot;xmlns&quot; prefix is reserved for use by XML" />
+      <String ID="40060" Data="xml namespace URI (http://www.w3.org/XML/1998/namespace) must be assigned only to prefix &quot;xml&quot;" />
+      <String ID="40061" Data="xmlns namespace URI (http://www.w3.org/2000/xmlns/) is reserved and must not be used" />
+      <String ID="40062" Data="Element depth exceeds limit in XmlReaderProperty_MaxElementDepth" />
+      <String ID="40063" Data="Entity expansion exceeds limit in MaxEntityExpansion value" />
+      <String ID="40064" Data="Specified string is not whitespace" />
+      <String ID="40065" Data="Namespace prefix is already declared with a different namespace" />
+      <String ID="40066" Data="It is not allowed to declare a namespace prefix with empty URI (for example xmlns:p=&quot;&quot;)." />
+      <String ID="40067" Data="Duplicate attribute" />
+      <String ID="40068" Data="Can not redefine the xmlns prefix" />
+      <String ID="40069" Data="xml prefix must have the http://www.w3.org/XML/1998/namespace URI" />
+      <String ID="40070" Data="xml namespace URI (http://www.w3.org/XML/1998/namespace) must be assigned only to prefix &quot;xml&quot;" />
+      <String ID="40071" Data="xmlns namespace URI (http://www.w3.org/2000/xmlns/) is reserved and must not be used" />
+      <String ID="40072" Data="Namespace is not declared" />
+      <String ID="40073" Data="Invalid value of xml:space attribute (allowed values are &quot;default&quot; and &quot;preserve&quot;)" />
+      <String ID="40074" Data="Performing the requested action would result in invalid XML document" />
+      <String ID="40075" Data="Input contains invalid or incomplete surrogate pair" />
+      <String ID="40076" Data="Character in character entity is not a decimal digit as was expected." />
+      <String ID="40077" Data="Character in character entity is not a hexadecimal digit as was expected." />
+      <String ID="40078" Data="Character entity has invalid Unicode value." />
+      <String ID="40079" Data="Can not open file" />
+      <String ID="40080" Data="Internal error" />
+      <String ID="40081" Data="Internal error" />
+      <String ID="40082" Data="Internal error" />
+      <String ID="40083" Data="Can't load scheme" />
+      <String ID="40084" Data="Can't load XSLT file." />
+      <String ID="40085" Data="Error occures then transform the active document by selected XSLT file." />
+      <String ID="40100" Data="&quot;%s&quot; is not valid name" />
+      <String ID="40101" Data="Can't create result file." />      
+      <String ID="40199" Data="Validation successful." />      
+      <String ID="40200" Data="Registration data is not valid." />
+      <String ID="40201" Data="Thank you for registration." />
+      <String ID="40500" Data="&amp;Languages" />
+      <String ID="57600" Data="Create a new document" />
+      <String ID="57601" Data="Open an existing document" />
+      <String ID="57602" Data="Close the active document" />
+      <String ID="57603" Data="Save the active document" />
+      <String ID="57604" Data="Save the active document with a new name" />
+      <String ID="57632" Data="Delete the selected item" />
+      <String ID="57634" Data="Copy the selection and put it on the Clipboard" />
+      <String ID="57635" Data="Cut the selection and put it on the Clipboard" />
+      <String ID="57637" Data="Insert Clipboard contents" />
+      <String ID="57643" Data="Undo the last action" />
+      <String ID="57644" Data="Redo the previously undone action" />
+    </Strings>
+    <Menus>
+      <Menu ID="128">
+        <MenuItem ID="-1" Data="&amp;File" Popup="1">
+          <MenuItem ID="57600" Data="&amp;New\tCtrl+N" />
+          <MenuItem ID="57601" Data="&amp;Open...\tCtrl+O" />
+          <MenuItem ID="57603" Data="&amp;Save\tCtrl+S" />
+          <MenuItem ID="57604" Data="Save &amp;as..." />
+          <MenuItem ID="32786" Data="Save a&amp;ll\tCtrl+Shift+S" />
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="57602" Data="&amp;Close\tCtrl+F4" />
+          <MenuItem ID="32788" Data="Close &amp;all" />
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="32900" Data="Recent Files" Grayed="1" />
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="32773" Data="E&amp;xit" />
+        </MenuItem>
+        <MenuItem ID="-1" Data="&amp;Edit" Popup="1">
+          <MenuItem ID="57643" Data="&amp;Undo\tCtrl+Z" />
+          <MenuItem ID="57644" Data="&amp;Redo\tCtrl+Shift+Z" />
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="57635" Data="Cu&amp;t\tCtrl+X" />
+          <MenuItem ID="57634" Data="&amp;Copy\tCtrl+C" />
+          <MenuItem ID="57637" Data="&amp;Paste\tCtrl+V" />
+          <MenuItem ID="57632" Data="&amp;Delete\tDel" />
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="57636" Data="&amp;Find\tCtrl+F" />
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="32869" Data="Dup&amp;licate\tCtrl+D" />
+          <MenuItem ID="-1" Data="Copy &amp;advanced" Popup="1">
+            <MenuItem ID="32811" Data="Copy &amp;name" />
+            <MenuItem ID="32812" Data="Copy &amp;value" />
+            <MenuItem ID="32891" Data="Copy as &amp;XML" />
+            <MenuItem ID="32893" Data="Copy X&amp;Path" />
+          </MenuItem>
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="32838" Data="&amp;Rename\tF2" />
+          <MenuItem ID="32839" Data="Change &amp;value\tCtrl+F2" />
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="32863" Data="Insert &amp;Ettribute"/>
+          <MenuItem ID="-1" Data="Insert &amp;Element" Popup="1">
+            <MenuItem ID="32860" Data="&amp;Before" />
+            <MenuItem ID="32861" Data="&amp;After" />
+            <MenuItem ID="32862" Data="as C&amp;hild" />
+          </MenuItem>
+          <MenuItem ID="-1" Data="Insert &amp;Text" Popup="1">
+            <MenuItem ID="32874" Data="&amp;Before" />
+            <MenuItem ID="32875" Data="&amp;After" />
+            <MenuItem ID="32876" Data="as C&amp;hild" />
+          </MenuItem>
+          <MenuItem ID="-1" Data="Insert Co&amp;mment" Popup="1">
+            <MenuItem ID="32866" Data="&amp;Before" />
+            <MenuItem ID="32867" Data="&amp;After" />
+            <MenuItem ID="32868" Data="as C&amp;hild" />
+          </MenuItem>
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="-1" Data="&amp;Move item" Popup="1">
+            <MenuItem ID="32870" Data="&amp;Up\tCtrl+Up" />
+            <MenuItem ID="32871" Data="&amp;Down\tCtrl+Down" />
+          </MenuItem>
+        </MenuItem>
+        <MenuItem ID="-1" Data="&amp;View" Popup="1">
+          <MenuItem ID="-1" Data="&amp;Toolbars" Popup="1">
+            <MenuItem ID="32850" Data="Standard" />
+          </MenuItem>
+          <MenuItem ID="32774" Data="Toggle tab position" />
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="32814" Data="Show nodes name prefix" />
+        </MenuItem>
+        <MenuItem ID="-1" Data="&amp;Tools" Popup="1">
+          <MenuItem ID="32894" Data="&amp;Validate by scheme..." />
+          <MenuItem ID="32895" Data="&amp;Run XSL transform..." />
+        </MenuItem>
+        <MenuItem ID="-1" Data="&amp;?" Popup="1">
+          <MenuItem ID="32881" Data="&amp;Home page" />
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="32883" Data="&amp;Register" />
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="202" Data="&amp;About..." />
+        </MenuItem>
+      </Menu>
+      <Menu ID="202">
+        <MenuItem ID="-1" Data="temp" Popup="1">
+          <MenuItem ID="57603" Data="&amp;Save" />
+          <MenuItem ID="57602" Data="&amp;Close" />
+          <MenuItem ID="32784" Data="Close &amp;all but not this" />
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="32790" Data="Copy document &amp;path" />
+          <MenuItem ID="32791" Data="Open containing &amp;folder" />
+        </MenuItem>
+      </Menu>
+      <Menu ID="203">
+        <MenuItem ID="-1" Data="temp" Popup="1">
+          <MenuItem ID="57635" Data="Cu&amp;t\tCtrl+X" />
+          <MenuItem ID="57634" Data="&amp;Copy\tCtrl+C" />
+          <MenuItem ID="57637" Data="&amp;Paste\tCtrl+V" />
+          <MenuItem ID="57632" Data="&amp;Delete\tDel" />
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="32869" Data="Dup&amp;licate\tCtrl+D" />
+          <MenuItem ID="-1" Data="Copy &amp;advanced" Popup="1">
+            <MenuItem ID="32811" Data="Copy &amp;name" />
+            <MenuItem ID="32812" Data="Copy &amp;value" />
+            <MenuItem ID="32891" Data="Copy as &amp;XML" />
+            <MenuItem ID="32893" Data="Copy X&amp;Path" />
+          </MenuItem>
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="32838" Data="&amp;Rename\tF2" />
+          <MenuItem ID="32839" Data="Change &amp;value\tCtrl+F2" />
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="32863" Data="Insert &amp;Attribute" />
+          <MenuItem ID="-1" Data="Insert &amp;Element" Popup="1">
+            <MenuItem ID="32860" Data="&amp;Before" />
+            <MenuItem ID="32861" Data="&amp;After" />
+            <MenuItem ID="32862" Data="as С&amp;hild" />
+          </MenuItem>
+          <MenuItem ID="-1" Data="Insert &amp;Text" Popup="1">
+            <MenuItem ID="32874" Data="&amp;Before" />
+            <MenuItem ID="32875" Data="&amp;After" />
+            <MenuItem ID="32876" Data="as C&amp;hild" />
+          </MenuItem>
+          <MenuItem ID="-1" Data="Insert Co&amp;mment" Popup="1">
+            <MenuItem ID="32866" Data="&amp;Before" />
+            <MenuItem ID="32867" Data="&amp;After" />
+            <MenuItem ID="32868" Data="as C&amp;hild" />
+          </MenuItem>
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="-1" Data="&amp;Move item" Popup="1">
+            <MenuItem ID="32870" Data="&amp;Up\tCtrl+Up" />
+            <MenuItem ID="32871" Data="&amp;Down\tCtrl+Down" />
+          </MenuItem>
+        </MenuItem>
+      </Menu>
+    </Menus>
+    <Dialogs>
+      <Dialog ID="211" X="0" Y="0" Width="278" Height="135" Style="2429026504" Caption="About STDU XMLEditor">
+        <Font Size="8" Name="MS Shell Dlg" Weight="400" />
+        <Control ID="1002" Style="268435469" ClassName="Static" Caption="" X="7" Y="7" Width="87" Height="81" />
+        <Control ID="-1" Style="268435456" SystemClass="130" Caption="STDU XMLEditor version:" X="105" Y="8" Width="80" Height="8" />
+        <Control ID="1003" Style="268435456" SystemClass="130" Caption="1.0.0.0" X="190" Y="8" Width="77" Height="8" />
+        <Control ID="-1" Style="268435472" ClassName="Static" Caption="" X="110" Y="19" Width="161" Height="1" />
+        <Control ID="-1" Style="268435456" SystemClass="130" Caption="Web site:" X="105" Y="23" Width="32" Height="8" />
+        <Control ID="1004" Style="268435456" SystemClass="130" Caption="www.stdutility.com" X="143" Y="23" Width="124" Height="8" />
+        <Control ID="-1" Style="268435456" SystemClass="130" Caption="Support:" X="105" Y="36" Width="29" Height="8" />
+        <Control ID="1005" Style="268435456" SystemClass="130" Caption="support@stdutility.com" X="143" Y="36" Width="124" Height="8" />
+        <Control ID="-1" Style="268435472" ClassName="Static" Caption="" X="110" Y="48" Width="161" Height="1" />
+        <Control ID="-1" Style="268435456" SystemClass="130" Caption="Licensed to:" X="105" Y="53" Width="40" Height="8" />
+        <Control ID="1" Style="268500993" SystemClass="128" Caption="OK" X="221" Y="74" Width="50" Height="14" />
+        <Control ID="-1" Style="268435456" SystemClass="130" Caption="Warning: This computer program is protected by copyright law an international treaties. Unathorized reproduction or distribution of this program, or any portition " X="7" Y="93" Width="264" Height="16" />
+        <Control ID="-1" Style="268435456" SystemClass="130" Caption="of it, may result in severe civil and criminal penalries, and will be prosecuted to the maximum extent possible under the law." X="7" Y="109" Width="264" Height="16" />
+        <Control ID="-1" Style="268435464" ClassName="Static" Caption="" X="4" Y="91" Width="270" Height="36" />
+        <Control ID="1008" Style="268435456" SystemClass="130" Caption="" X="149" Y="53" Width="122" Height="8" />
+      </Dialog>
+      <Dialog ID="212" X="0" Y="0" Width="360" Height="105" Style="2429026504" ExtStyle="0" Caption="Enter registration information">
+        <Font Size="8" Name="MS Shell Dlg" Weight="400" />
+        <Control ID="1002" Style="268435469" ClassName="Static" Caption="" X="6" Y="7" Width="87" Height="81" />
+        <Control ID="-1" Style="268435456" SystemClass="130" Caption="&amp;Username:" X="105" Y="5" Width="36" Height="8" />
+        <Control ID="1008" Style="276889728" SystemClass="129" Caption="" X="117" Y="16" Width="237" Height="13" />
+        <Control ID="-1" Style="268435456" SystemClass="130" Caption="&amp;E-mail:" X="105" Y="30" Width="22" Height="8" />
+        <Control ID="1009" Style="276889728" SystemClass="129" Caption="" X="117" Y="41" Width="237" Height="13" />
+        <Control ID="-1" Style="268435456" SystemClass="130" Caption="&amp;Key:" X="105" Y="54" Width="16" Height="8" />
+        <Control ID="1010" Style="276889736" SystemClass="129" Caption="" X="117" Y="65" Width="237" Height="13" />
+        <Control ID="1021" Style="268500993" SystemClass="128" Caption="Purchase" X="117" Y="84" Width="50" Height="14" />
+        <Control ID="1" Style="268500992" SystemClass="128" Caption="OK" X="248" Y="84" Width="50" Height="14" />
+        <Control ID="2" Style="268500992" SystemClass="128" Caption="Use trial" X="304" Y="84" Width="50" Height="14" />
+      </Dialog>
+      <Dialog ID="214" X="0" Y="0" Width="194" Height="180" Style="-2134376248" ExtStyle="0" Caption="Find">
+        <Font Size="8" Weight="400" Name="MS Shell Dlg" />
+        <Control ID="1009" Style="1344340226" SystemClass="133" Caption="" X="3" Y="13" Width="188" Height="30" />
+        <Control ID="-1" Style="1342308352" SystemClass="130" Caption="Fi&amp;nd what:" X="3" Y="3" Width="35" Height="8" />
+        <Control ID="-1" Style="1342177287" SystemClass="128" Caption="&amp;Look in:" X="3" Y="30" Width="188" Height="70" />
+        <Control ID="1010" Style="1342242822" SystemClass="128" Caption="&amp;Everywhere" X="8" Y="43" Width="55" Height="10" />
+        <Control ID="1012" Style="1342242819" SystemClass="128" Caption="No&amp;de names" X="8" Y="57" Width="55" Height="10" />
+        <Control ID="1013" Style="1342242819" SystemClass="128" Caption="Node &amp;values" X="106" Y="57" Width="55" Height="10" />
+        <Control ID="1014" Style="1342242819" SystemClass="128" Caption="&amp;Attribute names" X="8" Y="71" Width="67" Height="10" />
+        <Control ID="1015" Style="1342242819" SystemClass="128" Caption="A&amp;ttriubute values" X="106" Y="71" Width="71" Height="10" />
+        <Control ID="1016" Style="1342242819" SystemClass="128" Caption="Comments" X="8" Y="85" Width="49" Height="10" />
+        <Control ID="-1" Style="1342177287" SystemClass="128" Caption="Find &amp;options" X="3" Y="104" Width="188" Height="55" />
+        <Control ID="1017" Style="1342242819" SystemClass="128" Caption="Match &amp;case" X="8" Y="116" Width="52" Height="10" />
+        <Control ID="1018" Style="1342242819" SystemClass="128" Caption="Match &amp;whole word" X="8" Y="130" Width="74" Height="10" />
+        <Control ID="1019" Style="1342242819" SystemClass="128" Caption="Search &amp;up" X="8" Y="143" Width="48" Height="10" />
+        <Control ID="1020" Style="1342242817" SystemClass="128" Caption="&amp;Find next" X="87" Y="163" Width="50" Height="14" />
+        <Control ID="2" Style="1342242816" SystemClass="128" Caption="Cancel" X="141" Y="163" Width="50" Height="14" />
+      </Dialog>
+    </Dialogs>
+  </Language>
+  <Language ID="fr" Name="Français">
+    <Strings>
+      <String ID="128" Data="STDU XMLEditor" />
+      <String ID="129" Data="Sans titre" />
+      <String ID="130" Data="Voulez-vous enregistrer les changements dans: %s" />
+      <String ID="204" Data="Fichiers XML (*.xml)|*.xml|Tous les fichiers|*.*||" />
+      <String ID="205" Data="Fichiers XML (*.xml)|*.xml|Tous les fichiers|*.*||" />
+      <String ID="206" Data="Fichiers récents" />
+      <String ID="207" Data="Vous pouvez ouvrir le document en double-cliquant ici..." />
+      <String ID="208" Data="Fichiers Schéma (*.xsd)|*.xsd|Tous les fichiers|*.*||" />
+      <String ID="209" Data="Impossible d'ouvrir le fichier '%s' et il sera supprimé de la liste Fichiers récents." />
+      <String ID="210" Data="#Comment" />
+      <String ID="211" Data="Nouveau_Elément" />
+      <String ID="212" Data="Nouveau_Attribut" />
+      <String ID="213" Data="Sans titre" />
+      <String ID="214" Data="Sans titre %d" />
+      <String ID="215" Data="Error processing file: %s.\n%s.\nLine: %d, position: %d." />
+      <String ID="216" Data="Impossible d'enregistrer le fichier: %s.\nErreur: %s." />
+      <String ID="217" Data="Défiler vers la gauche" />
+      <String ID="218" Data="Défiler vers la droite" />
+      <String ID="219" Data="Fermer" />
+      <String ID="220" Data="Annuler" />
+      <String ID="221" Data="Redémarrez l'application pour appliquer les modifications." />
+      <String ID="222" Data="Le texte spécifié n'a pas été trouvé." />
+      <String ID="223" Data="Fichiers XSLT (*.xslt)|*.xslt|Tous les fichiers|*.*||" />
+      <String ID="224" Data="Tous les fichiers|*.*||" />      
+      <String ID="32768" Data="Nom" />
+      <String ID="32769" Data="Valeur" />
+      <String ID="32773" Data="Quitter l'éditeur" />
+      <String ID="32786" Data="Enregistrer tous les documents ouverts" />
+      <String ID="32811" Data="Copier le nom d'élément sélectionné dans le presse-papier" />
+      <String ID="32812" Data="Copier la valeur d'élément sélectionné dans le presse-papier" />
+      <String ID="32814" Data="Show/hide prefix of items name" />
+      <String ID="32838" Data="Renommer l'élément sélectionné" />
+      <String ID="32839" Data="Modifier la valeur d'élément sélectionné" />
+      <String ID="32860" Data="Ajouter un nouvel élément avant l'élément sélectionné" />
+      <String ID="32861" Data="Ajouter un nouvel élément après l'élément sélectionné" />
+      <String ID="32862" Data="Ajouter un nouvel élément comme fils d'un élément sélectionné" />
+      <String ID="32863" Data="Ajouter un nouvel attribut dans l'élément sélectionné" />
+      <String ID="32866" Data="Ajouter un nouveau commentaire avant l'élément sélectionné" />
+      <String ID="32867" Data="Ajouter un nouveau commentaire après l'élément sélectionné" />
+      <String ID="32868" Data="Ajouter un nouveau commentaire comme fils d'un élément sélectionné" />
+      <String ID="32869" Data="Doubler l'élément sélectionné" />
+      <String ID="32874" Data="Ajouter un nouvel texte avant l'élément sélectionné" />
+      <String ID="32875" Data="Ajouter un nouvel texte après l'élément sélectionné" />
+      <String ID="32876" Data="Ajouter un nouvel texte comme fils d'un élément sélectionné" />
+      <String ID="32891" Data="Copier l'élément sélectionné dans le presse-papier sous forme de chaîne XML" />
+      <String ID="32893" Data="Copiez XPath de l'élément sélectionné dans le presse-papier sous forme de chaîne XML" />
+      <String ID="32894" Data="Valider le document actif par un schéma..." />
+      <String ID="32895" Data="Transformer le document actif dans un nouveau fichier par XSL..." />
+      <String ID="40000" Data="Unexpected end of input" />
+      <String ID="40001" Data="Unrecognized encoding" />
+      <String ID="40002" Data="Unable to switch the encoding" />
+      <String ID="40003" Data="Unrecognized input signature" />
+      <String ID="40004" Data="Whitespace expected" />
+      <String ID="40005" Data="Semicolon expected" />
+      <String ID="40006" Data="'>' expected" />
+      <String ID="40007" Data="Quote expected" />
+      <String ID="40008" Data="Equal expected" />
+      <String ID="40009" Data="Well-formedness constraint: no '&lt;' in attribute value" />
+      <String ID="40010" Data="Hexadecimal digit expected" />
+      <String ID="40011" Data="Decimal digit expected" />
+      <String ID="40012" Data="'[' expected" />
+      <String ID="40013" Data="'(' expected" />
+      <String ID="40014" Data="Illegal xml character" />
+      <String ID="40015" Data="Illegal name character" />
+      <String ID="40016" Data="Incorrect document syntax" />
+      <String ID="40017" Data="Incorrect CDATA section syntax" />
+      <String ID="40018" Data="Incorrect comment syntax" />
+      <String ID="40019" Data="Incorrect conditional section syntax" />
+      <String ID="40020" Data="Incorrect ATTLIST declaration syntax" />
+      <String ID="40021" Data="Incorrect DOCTYPE declaration syntax" />
+      <String ID="40022" Data="Incorrect ELEMENT declaration syntax" />
+      <String ID="40023" Data="Incorrect ENTITY declaration syntax" />
+      <String ID="40024" Data="Incorrect NOTATION declaration syntax" />
+      <String ID="40025" Data="NDATA expected" />
+      <String ID="40026" Data="PUBLIC expected" />
+      <String ID="40027" Data="SYSTEM expected" />
+      <String ID="40028" Data="Name expected" />
+      <String ID="40029" Data="One root element" />
+      <String ID="40030" Data="Well-formedness constraint: element type match" />
+      <String ID="40031" Data="Well-formedness constraint: unique attribute spec" />
+      <String ID="40032" Data="Text/xmldecl not at the beginning of input" />
+      <String ID="40033" Data="Leading &quot;xml&quot;" />
+      <String ID="40034" Data="Incorrect text declaration syntax" />
+      <String ID="40035" Data="Incorrect xml declaration syntax" />
+      <String ID="40036" Data="Incorrect encoding name syntax" />
+      <String ID="40037" Data="Incorrect public identifier syntax" />
+      <String ID="40038" Data="Well-formedness constraint: pes in internal subset" />
+      <String ID="40039" Data="Well-formedness constraint: pes between declarations" />
+      <String ID="40040" Data="Well-formedness constraint: no recursion" />
+      <String ID="40041" Data="Entity content not well formed" />
+      <String ID="40042" Data="Well-formedness constraint: undeclared entity" />
+      <String ID="40043" Data="Well-formedness constraint: parsed entity" />
+      <String ID="40044" Data="Well-formedness constraint: no external entity references" />
+      <String ID="40045" Data="Incorrect processing instruction syntax" />
+      <String ID="40046" Data="Incorrect system identifier syntax" />
+      <String ID="40047" Data="'?' expected" />
+      <String ID="40048" Data="No ']]>' in element content" />
+      <String ID="40049" Data="Not all chunks of value have been read" />
+      <String ID="40050" Data="DTD was found but is prohibited" />
+      <String ID="40051" Data="xml:space attribute with invalid value" />
+      <String ID="40052" Data="Illegal qualified name character" />
+      <String ID="40053" Data="Multiple colons in qualified name" />
+      <String ID="40054" Data="Colon in name" />
+      <String ID="40055" Data="Declared prefix" />
+      <String ID="40056" Data="Undeclared prefix" />
+      <String ID="40057" Data="Non default namespace with empty uri" />
+      <String ID="40058" Data="&quot;xml&quot; prefix is reserved and must have the http://www.w3.org/XML/1998/namespace URI" />
+      <String ID="40059" Data="&quot;xmlns&quot; prefix is reserved for use by XML" />
+      <String ID="40060" Data="xml namespace URI (http://www.w3.org/XML/1998/namespace) must be assigned only to prefix &quot;xml&quot;" />
+      <String ID="40061" Data="xmlns namespace URI (http://www.w3.org/2000/xmlns/) is reserved and must not be used" />
+      <String ID="40062" Data="Element depth exceeds limit in XmlReaderProperty_MaxElementDepth" />
+      <String ID="40063" Data="Entity expansion exceeds limit in MaxEntityExpansion value" />
+      <String ID="40064" Data="Specified string is not whitespace" />
+      <String ID="40065" Data="Namespace prefix is already declared with a different namespace" />
+      <String ID="40066" Data="It is not allowed to declare a namespace prefix with empty URI (for example xmlns:p=&quot;&quot;)." />
+      <String ID="40067" Data="Duplicate attribute" />
+      <String ID="40068" Data="Can not redefine the xmlns prefix" />
+      <String ID="40069" Data="xml prefix must have the http://www.w3.org/XML/1998/namespace URI" />
+      <String ID="40070" Data="xml namespace URI (http://www.w3.org/XML/1998/namespace) must be assigned only to prefix &quot;xml&quot;" />
+      <String ID="40071" Data="xmlns namespace URI (http://www.w3.org/2000/xmlns/) is reserved and must not be used" />
+      <String ID="40072" Data="Namespace is not declared" />
+      <String ID="40073" Data="Invalid value of xml:space attribute (allowed values are &quot;default&quot; and &quot;preserve&quot;)" />
+      <String ID="40074" Data="Performing the requested action would result in invalid XML document" />
+      <String ID="40075" Data="Input contains invalid or incomplete surrogate pair" />
+      <String ID="40076" Data="Character in character entity is not a decimal digit as was expected." />
+      <String ID="40077" Data="Character in character entity is not a hexadecimal digit as was expected." />
+      <String ID="40078" Data="Character entity has invalid Unicode value." />
+      <String ID="40079" Data="Can not open file" />
+      <String ID="40080" Data="Internal error" />
+      <String ID="40081" Data="Internal error" />
+      <String ID="40082" Data="Internal error" />
+      <String ID="40083" Data="Impossible de charger le schèma" />
+      <String ID="40084" Data="Impossible de charger le fichier XSLT." />
+      <String ID="40085" Data="Une erreur est survenue  lors de la transformation du document actif par le fichier XSLT sélectionné" />
+      <String ID="40100" Data="Le nom &quot;%s&quot; n'est pas valide" />
+      <String ID="40101" Data="Impossible de créer le fichier de résultat." />      
+      <String ID="40199" Data="Validation réussie." />    
+      <String ID="40200" Data="Données d'enregistrement non valides." />
+      <String ID="40201" Data="Merci pour l'enregistrement." />
+      <String ID="40500" Data="Langues" />
+      <String ID="57600" Data="Créer un nouveau document" />
+      <String ID="57601" Data="Ouvrir un document existant" />
+      <String ID="57602" Data="Fermer le document en cours" />
+      <String ID="57603" Data="Enregistrer le document en cours" />
+      <String ID="57604" Data="Enregistrer le document en cours sous un autre nom" />
+      <String ID="57632" Data="Supprimer l'élément sélectionné" />
+      <String ID="57634" Data="Copier la sélection et la mettre dans le presse-papier" />
+      <String ID="57635" Data="Couper la sélection et la mettre dans le presse-papier" />
+      <String ID="57637" Data="Coller le contenu du presse-papier" />
+      <String ID="57643" Data="Annuler l'opération précédente" />
+      <String ID="57644" Data="Rétablir la dernière opération annulée" />
+    </Strings>
+    <Menus>
+      <Menu ID="128">
+        <MenuItem ID="-1" Data="Fichier" Popup="1">
+          <MenuItem ID="57600" Data="Nouveau\tCtrl+N" />
+          <MenuItem ID="57601" Data="Ouvrir...\tCtrl+O" />
+          <MenuItem ID="57603" Data="Enregistrer\tCtrl+S" />
+          <MenuItem ID="57604" Data="Enregistrer sous..." />
+          <MenuItem ID="32786" Data="Enregistrer tout\tCtrl+Shift+S" />
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="57602" Data="Fermer\tCtrl+F4" />
+          <MenuItem ID="32788" Data="Fermer tout" />
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="32900" Data="Fichiers récents" Grayed="1" />
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="32773" Data="Quitter" />
+        </MenuItem>
+        <MenuItem ID="-1" Data="Edition" Popup="1">
+          <MenuItem ID="57643" Data="Anuler\tCtrl+Z" />
+          <MenuItem ID="57644" Data="Rétablir\tCtrl+Shift+Z" />
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="57635" Data="Couper\tCtrl+X" />
+          <MenuItem ID="57634" Data="Copier\tCtrl+C" />
+          <MenuItem ID="57637" Data="Coller\tCtrl+V" />
+          <MenuItem ID="57632" Data="Supprimer\tDel" />
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="57636" Data="Rechercher\tCtrl+F" />
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="32869" Data="Doubler\tCtrl+D" />
+          <MenuItem ID="-1" Data="Copie avancée" Popup="1">
+            <MenuItem ID="32811" Data="Copier nom" />
+            <MenuItem ID="32812" Data="Copier valeur" />
+            <MenuItem ID="32891" Data="Copier sous forme de XML" />
+            <MenuItem ID="32893" Data="Copier XPath" />
+          </MenuItem>
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="32838" Data="Renommer\tF2" />
+          <MenuItem ID="32839" Data="Changer valeur\tCtrl+F2" />
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="32863" Data="Insérer attribut" />
+          <MenuItem ID="-1" Data="Insérer élément" Popup="1">
+            <MenuItem ID="32860" Data="Avant" />
+            <MenuItem ID="32861" Data="Après" />
+            <MenuItem ID="32862" Data="Comme fils" />
+          </MenuItem>
+          <MenuItem ID="-1" Data="Insérer texte" Popup="1">
+            <MenuItem ID="32866" Data="Avant" />
+            <MenuItem ID="32867" Data="Après" />
+            <MenuItem ID="32868" Data="Comme fils" />
+          </MenuItem>
+          <MenuItem ID="-1" Data="Insérer commentaire" Popup="1">
+            <MenuItem ID="32866" Data="Avant" />
+            <MenuItem ID="32867" Data="Après" />
+            <MenuItem ID="32868" Data="Comme fils" />
+          </MenuItem>
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="-1" Data="Déplacer élément" Popup="1">
+            <MenuItem ID="32870" Data="En haut\tCtrl+Up" />
+            <MenuItem ID="32871" Data="En bas\tCtrl+Down" />
+          </MenuItem>
+        </MenuItem>
+        <MenuItem ID="-1" Data="Affichage" Popup="1">
+          <MenuItem ID="-1" Data="Barre d'outils" Popup="1">
+            <MenuItem ID="32850" Data="Standard" />
+          </MenuItem>
+          <MenuItem ID="32774" Data="Changer la position des onglets" />
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="32814" Data="Afficher le nom avec le préfixe" />
+        </MenuItem>
+        <MenuItem ID="-1" Data="Outils" Popup="1">
+          <MenuItem ID="32894" Data="&amp;Valider par un schéma..." />
+          <MenuItem ID="32895" Data="&amp;Lancer la transformation XSL..." />
+        </MenuItem>        
+        <MenuItem ID="-1" Data="&amp;?" Popup="1">
+          <MenuItem ID="32881" Data="Page d'accueil" />
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="32883" Data="Enregistrement" />
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="202" Data="A propos de..." />
+        </MenuItem>
+      </Menu>
+      <Menu ID="202">
+        <MenuItem ID="-1" Data="temp" Popup="1">
+          <MenuItem ID="57603" Data="Enregistrer" />
+          <MenuItem ID="57602" Data="Fermer" />
+          <MenuItem ID="32784" Data="Fermer tout sauf ce document" />
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="32790" Data="Copier chemin d'accès d'un document" />
+          <MenuItem ID="32791" Data="Ouvrir le dossier contenant" />
+        </MenuItem>
+      </Menu>
+      <Menu ID="203">
+        <MenuItem ID="-1" Data="temp" Popup="1">
+          <MenuItem ID="57635" Data="Couper\tCtrl+X" />
+          <MenuItem ID="57634" Data="Copier\tCtrl+C" />
+          <MenuItem ID="57637" Data="Coller\tCtrl+V" />
+          <MenuItem ID="57632" Data="Supprimer\tDel" />
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="32869" Data="Doubler\tCtrl+D" />
+          <MenuItem ID="-1" Data="Copie avancée" Popup="1">
+            <MenuItem ID="32811" Data="Copier nom" />
+            <MenuItem ID="32812" Data="Copier valeur" />
+            <MenuItem ID="32891" Data="Copier sous forme de XML" />
+            <MenuItem ID="32893" Data="Copier XPath" />
+          </MenuItem>
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="32838" Data="Renommer\tF2" />
+          <MenuItem ID="32839" Data="Changer valeur\tCtrl+F2" />
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="32863" Data="Insérer attribut" />
+          <MenuItem ID="-1" Data="Insérer élément" Popup="1">
+            <MenuItem ID="32860" Data="Avant" />
+            <MenuItem ID="32861" Data="Après" />
+            <MenuItem ID="32862" Data="Comme fils" />
+          </MenuItem>
+          <MenuItem ID="-1" Data="Insérer texte" Popup="1">
+            <MenuItem ID="32866" Data="Avant" />
+            <MenuItem ID="32867" Data="Après" />
+            <MenuItem ID="32868" Data="Comme fils" />
+          </MenuItem>
+           <MenuItem ID="-1" Data="Insérer commentaire" Popup="1">
+            <MenuItem ID="32866" Data="&amp;Avant" />
+            <MenuItem ID="32867" Data="&amp;AftAprèser" />
+            <MenuItem ID="32868" Data="Comme fils" />
+          </MenuItem>
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="-1" Data="Déplacer élément" Popup="1">
+            <MenuItem ID="32870" Data="En haut\tCtrl+Up" />
+            <MenuItem ID="32871" Data="En bas\tCtrl+Down" />
+          </MenuItem>
+        </MenuItem>
+      </Menu>
+    </Menus>
+    <Dialogs>
+      <Dialog ID="211" X="0" Y="0" Width="278" Height="135" Style="2429026504" Caption="A propos de STDU XMLEditor">
+        <Font Size="8" Name="MS Shell Dlg" Weight="400" />
+        <Control ID="1002" Style="268435469" ClassName="Static" Caption="" X="7" Y="7" Width="87" Height="81" />
+        <Control ID="-1" Style="268435456" SystemClass="130" Caption="Version de STDU XMLEditor:" X="105" Y="8" Width="100" Height="8" />
+        <Control ID="1003" Style="268435456" SystemClass="130" Caption="1.0.0.0" X="195" Y="8" Width="77" Height="8" />
+        <Control ID="-1" Style="268435472" ClassName="Static" Caption="" X="110" Y="19" Width="161" Height="1" />
+        <Control ID="-1" Style="268435456" SystemClass="130" Caption="Site web:" X="105" Y="23" Width="32" Height="8" />
+        <Control ID="1004" Style="268435456" SystemClass="130" Caption="www.stdutility.com" X="143" Y="23" Width="124" Height="8" />
+        <Control ID="-1" Style="268435456" SystemClass="130" Caption="Support:" X="105" Y="36" Width="29" Height="8" />
+        <Control ID="1005" Style="268435456" SystemClass="130" Caption="support@stdutility.com" X="143" Y="36" Width="124" Height="8" />
+        <Control ID="-1" Style="268435472" ClassName="Static" Caption="" X="110" Y="48" Width="161" Height="1" />
+        <Control ID="-1" Style="268435456" SystemClass="130" Caption="Sous licence à:" X="105" Y="53" Width="50" Height="8" />
+        <Control ID="1" Style="268500993" SystemClass="128" Caption="OK" X="221" Y="74" Width="50" Height="14" />
+        <Control ID="-1" Style="268435456" SystemClass="130" Caption="Warning: This computer program is protected by copyright law an international treaties. Unathorized reproduction or distribution of this program, or any portition " X="7" Y="93" Width="264" Height="16" />
+        <Control ID="-1" Style="268435456" SystemClass="130" Caption="of it, may result in severe civil and criminal penalries, and will be prosecuted to the maximum extent possible under the law." X="7" Y="109" Width="264" Height="16" />
+        <Control ID="-1" Style="268435464" ClassName="Static" Caption="" X="4" Y="91" Width="270" Height="36" />
+        <Control ID="1008" Style="268435456" SystemClass="130" Caption="" X="155" Y="53" Width="122" Height="8" />
+      </Dialog>
+      <Dialog ID="212" X="0" Y="0" Width="360" Height="105" Style="2429026504" ExtStyle="0" Caption="Entrer l'information d'enregistrement">
+        <Font Size="8" Name="MS Shell Dlg" Weight="400" />
+        <Control ID="1002" Style="268435469" ClassName="Static" Caption="" X="6" Y="7" Width="87" Height="81" />
+        <Control ID="-1" Style="268435456" SystemClass="130" Caption="&amp;Nom d'utilisateur:" X="105" Y="5" Width="36" Height="8" />
+        <Control ID="1008" Style="276889728" SystemClass="129" Caption="" X="117" Y="16" Width="237" Height="13" />
+        <Control ID="-1" Style="268435456" SystemClass="130" Caption="&amp;E-mail:" X="105" Y="30" Width="22" Height="8" />
+        <Control ID="1009" Style="276889728" SystemClass="129" Caption="" X="117" Y="41" Width="237" Height="13" />
+        <Control ID="-1" Style="268435456" SystemClass="130" Caption="&amp;Clé:" X="105" Y="54" Width="16" Height="8" />
+        <Control ID="1010" Style="276889736" SystemClass="129" Caption="" X="117" Y="65" Width="237" Height="13" />
+        <Control ID="1021" Style="268500993" SystemClass="128" Caption="Acheter" X="117" Y="84" Width="50" Height="14" />
+        <Control ID="1" Style="268500992" SystemClass="128" Caption="OK" X="248" Y="84" Width="50" Height="14" />
+        <Control ID="2" Style="268500992" SystemClass="128" Caption="Version d'essai" X="304" Y="84" Width="50" Height="14" />
+      </Dialog>
+      <Dialog ID="214" X="0" Y="0" Width="194" Height="180" Style="-2134376248" ExtStyle="0" Caption="Rechercher">
+        <Font Size="8" Weight="400" Name="MS Shell Dlg" />
+        <Control ID="1009" Style="1344340226" SystemClass="133" Caption="" X="3" Y="13" Width="188" Height="30" />
+        <Control ID="-1" Style="1342308352" SystemClass="130" Caption="Rechercher:" X="3" Y="3" Width="60" Height="8" />
+        <Control ID="-1" Style="1342177287" SystemClass="128" Caption="Rechercher dans:" X="3" Y="30" Width="188" Height="70" />
+        <Control ID="1010" Style="1342242822" SystemClass="128" Caption="Partout" X="8" Y="43" Width="55" Height="10" />
+        <Control ID="1012" Style="1342242819" SystemClass="128" Caption="Noms de noeuds" X="8" Y="57" Width="70" Height="10" />
+        <Control ID="1013" Style="1342242819" SystemClass="128" Caption="Valeurs de noeuds" X="106" Y="57" Width="70" Height="10" />
+        <Control ID="1014" Style="1342242819" SystemClass="128" Caption="Noms d'attribut" X="8" Y="71" Width="70" Height="10" />
+        <Control ID="1015" Style="1342242819" SystemClass="128" Caption="Valeurs d'attribut" X="106" Y="71" Width="71" Height="10" />
+        <Control ID="1016" Style="1342242819" SystemClass="128" Caption="Commentaires" X="8" Y="85" Width="70" Height="10" />
+        <Control ID="-1" Style="1342177287" SystemClass="128" Caption="Options de recgerche" X="3" Y="104" Width="188" Height="55" />
+        <Control ID="1017" Style="1342242819" SystemClass="128" Caption="Respecter la casse" X="8" Y="116" Width="150" Height="10" />
+        <Control ID="1018" Style="1342242819" SystemClass="128" Caption="Mot entier seulement" X="8" Y="130" Width="150" Height="10" />
+        <Control ID="1019" Style="1342242819" SystemClass="128" Caption="Rechercher vers le haut" X="8" Y="143" Width="150" Height="10" />
+        <Control ID="1020" Style="1342242817" SystemClass="128" Caption="Suivant" X="87" Y="163" Width="50" Height="14" />
+        <Control ID="2" Style="1342242816" SystemClass="128" Caption="Annuler" X="141" Y="163" Width="50" Height="14" />
+      </Dialog>
+    </Dialogs>
+  </Language>
+  <Language ID="ru" Name="Русский">
+    <Strings>
+      <String ID="128" Data="STDU XMLEditor" />
+      <String ID="129" Data="Новый" />
+      <String ID="130" Data="Вы хотите сохранить изменения в файл: %s" />
+      <String ID="204" Data="XML-файлы (*.xml)|*.xml|Все файлы|*.*||" />
+      <String ID="205" Data="XML-файлы (*.xml)|*.xml|Все файлы|*.*||" />
+      <String ID="206" Data="Последние открытые файлы" />
+      <String ID="207" Data="Чтобы открыть существующий документ, дважды щелкните здесь..." />
+      <String ID="208" Data="Файлы схем (*.xsd)|*.xsd|Все файлы|*.*||" />
+      <String ID="209" Data="Файл '%s' не может быть открыт и будет удален из списка." />
+      <String ID="210" Data="#Comment" />
+      <String ID="211" Data="Новый_элемент" />
+      <String ID="212" Data="Новый_аттрибут" />
+      <String ID="213" Data="Новый" />
+      <String ID="214" Data="Новый %d" />
+      <String ID="215" Data="Ошибка при открытии файла: %s.\n%s.\nСтрока: %d, позиция: %d." />
+      <String ID="216" Data="Не удалось сохранить файл: %s.\nОшибка: %s." />
+      <String ID="217" Data="Сдвинуть вправо" />
+      <String ID="218" Data="Сдвинуть влево" />
+      <String ID="219" Data="Закрыть" />
+      <String ID="220" Data="Отмена" />
+      <String ID="221" Data="Перезапустите, пожалуйста, приложение, чтобы изменения вступили в силу." />
+      <String ID="222" Data="Текст не найден." />
+      <String ID="223" Data="XSLT-файлы (*.xslt)|*.xslt|Все файлы|*.*||" />
+      <String ID="224" Data="Все файлы|*.*||" />      
+      <String ID="32768" Data="Имя" />
+      <String ID="32769" Data="Значение" />
+      <String ID="32773" Data="Выйти из редактора" />
+      <String ID="32786" Data="Сохранить все открытые документы" />
+      <String ID="32811" Data="Скопировать имя выбранного элемента в буфер обмена" />
+      <String ID="32812" Data="Скопировать значение выбранного элемента в буфер обмена" />
+      <String ID="32814" Data="Показать/скрыть префиксы для имен элементов" />
+      <String ID="32838" Data="Переименовать выбранный элемент" />
+      <String ID="32839" Data="Редактировать значение выбранного элемента" />
+      <String ID="32860" Data="Добавить новый элемент перед выбранным" />
+      <String ID="32861" Data="Добавить новый элемент после выбранного" />
+      <String ID="32862" Data="Добавить новый элемент как дочерний для выбранного" />
+      <String ID="32863" Data="Добавить новый аттрибут выбранного элемента" />
+      <String ID="32866" Data="Добавить новый комментарий перед выбранным элементом" />
+      <String ID="32867" Data="Добавить новый комментарий после выбранного элемента" />
+      <String ID="32868" Data="Добавить новый комментарий как дочерний для выбранного элемента" />
+      <String ID="32869" Data="Создать дубликат выбранного элемента" />
+      <String ID="32874" Data="Добавить новый текст перед выбранным" />
+      <String ID="32875" Data="Добавить новый текст после выбранного" />
+      <String ID="32876" Data="Добавить новый текст как дочерний для выбранного" />
+      <String ID="32891" Data="Скопировать выбранный элемент в буфер обмена как XML" />
+      <String ID="32893" Data="Скопировать XPath выбранного элемента в буфер обмена" />
+      <String ID="32894" Data="Проверить активный документ по схеме..." />
+      <String ID="32895" Data="Преобразовать активный документ в новый файл используя XSL..." />
+      <String ID="40000" Data="Неожиданный конец входного файла" />
+      <String ID="40001" Data="Unrecognized encoding" />
+      <String ID="40002" Data="Unable to switch the encoding" />
+      <String ID="40003" Data="Unrecognized input signature" />
+      <String ID="40004" Data="Whitespace expected" />
+      <String ID="40005" Data="Semicolon expected" />
+      <String ID="40006" Data="'>' expected" />
+      <String ID="40007" Data="Quote expected" />
+      <String ID="40008" Data="Equal expected" />
+      <String ID="40009" Data="Well-formedness constraint: no '&lt;' in attribute value" />
+      <String ID="40010" Data="Hexadecimal digit expected" />
+      <String ID="40011" Data="Decimal digit expected" />
+      <String ID="40012" Data="'[' expected" />
+      <String ID="40013" Data="'(' expected" />
+      <String ID="40014" Data="Illegal xml character" />
+      <String ID="40015" Data="Illegal name character" />
+      <String ID="40016" Data="Incorrect document syntax" />
+      <String ID="40017" Data="Incorrect CDATA section syntax" />
+      <String ID="40018" Data="Incorrect comment syntax" />
+      <String ID="40019" Data="Incorrect conditional section syntax" />
+      <String ID="40020" Data="Incorrect ATTLIST declaration syntax" />
+      <String ID="40021" Data="Incorrect DOCTYPE declaration syntax" />
+      <String ID="40022" Data="Incorrect ELEMENT declaration syntax" />
+      <String ID="40023" Data="Incorrect ENTITY declaration syntax" />
+      <String ID="40024" Data="Incorrect NOTATION declaration syntax" />
+      <String ID="40025" Data="NDATA expected" />
+      <String ID="40026" Data="PUBLIC expected" />
+      <String ID="40027" Data="SYSTEM expected" />
+      <String ID="40028" Data="Name expected" />
+      <String ID="40029" Data="One root element" />
+      <String ID="40030" Data="Well-formedness constraint: element type match" />
+      <String ID="40031" Data="Well-formedness constraint: unique attribute spec" />
+      <String ID="40032" Data="Text/xmldecl not at the beginning of input" />
+      <String ID="40033" Data="Leading &quot;xml&quot;" />
+      <String ID="40034" Data="Incorrect text declaration syntax" />
+      <String ID="40035" Data="Incorrect xml declaration syntax" />
+      <String ID="40036" Data="Incorrect encoding name syntax" />
+      <String ID="40037" Data="Incorrect public identifier syntax" />
+      <String ID="40038" Data="Well-formedness constraint: pes in internal subset" />
+      <String ID="40039" Data="Well-formedness constraint: pes between declarations" />
+      <String ID="40040" Data="Well-formedness constraint: no recursion" />
+      <String ID="40041" Data="Entity content not well formed" />
+      <String ID="40042" Data="Well-formedness constraint: undeclared entity" />
+      <String ID="40043" Data="Well-formedness constraint: parsed entity" />
+      <String ID="40044" Data="Well-formedness constraint: no external entity references" />
+      <String ID="40045" Data="Incorrect processing instruction syntax" />
+      <String ID="40046" Data="Incorrect system identifier syntax" />
+      <String ID="40047" Data="'?' expected" />
+      <String ID="40048" Data="No ']]>' in element content" />
+      <String ID="40049" Data="Not all chunks of value have been read" />
+      <String ID="40050" Data="DTD was found but is prohibited" />
+      <String ID="40051" Data="xml:space attribute with invalid value" />
+      <String ID="40052" Data="Illegal qualified name character" />
+      <String ID="40053" Data="Multiple colons in qualified name" />
+      <String ID="40054" Data="Colon in name" />
+      <String ID="40055" Data="Declared prefix" />
+      <String ID="40056" Data="Undeclared prefix" />
+      <String ID="40057" Data="Non default namespace with empty uri" />
+      <String ID="40058" Data="&quot;xml&quot; prefix is reserved and must have the http://www.w3.org/XML/1998/namespace URI" />
+      <String ID="40059" Data="&quot;xmlns&quot; prefix is reserved for use by XML" />
+      <String ID="40060" Data="xml namespace URI (http://www.w3.org/XML/1998/namespace) must be assigned only to prefix &quot;xml&quot;" />
+      <String ID="40061" Data="xmlns namespace URI (http://www.w3.org/2000/xmlns/) is reserved and must not be used" />
+      <String ID="40062" Data="Element depth exceeds limit in XmlReaderProperty_MaxElementDepth" />
+      <String ID="40063" Data="Entity expansion exceeds limit in MaxEntityExpansion value" />
+      <String ID="40064" Data="Specified string is not whitespace" />
+      <String ID="40065" Data="Namespace prefix is already declared with a different namespace" />
+      <String ID="40066" Data="It is not allowed to declare a namespace prefix with empty URI (for example xmlns:p=&quot;&quot;)." />
+      <String ID="40067" Data="Duplicate attribute" />
+      <String ID="40068" Data="Can not redefine the xmlns prefix" />
+      <String ID="40069" Data="xml prefix must have the http://www.w3.org/XML/1998/namespace URI" />
+      <String ID="40070" Data="xml namespace URI (http://www.w3.org/XML/1998/namespace) must be assigned only to prefix &quot;xml&quot;" />
+      <String ID="40071" Data="xmlns namespace URI (http://www.w3.org/2000/xmlns/) is reserved and must not be used" />
+      <String ID="40072" Data="Namespace is not declared" />
+      <String ID="40073" Data="Invalid value of xml:space attribute (allowed values are &quot;default&quot; and &quot;preserve&quot;)" />
+      <String ID="40074" Data="Performing the requested action would result in invalid XML document" />
+      <String ID="40075" Data="Input contains invalid or incomplete surrogate pair" />
+      <String ID="40076" Data="Character in character entity is not a decimal digit as was expected." />
+      <String ID="40077" Data="Character in character entity is not a hexadecimal digit as was expected." />
+      <String ID="40078" Data="Character entity has invalid Unicode value." />
+      <String ID="40079" Data="Can not open file" />
+      <String ID="40080" Data="Internal error" />
+      <String ID="40081" Data="Internal error" />
+      <String ID="40082" Data="Internal error" />
+      <String ID="40083" Data="Не удалось загрузить схему" />
+      <String ID="40084" Data="Не удалось загрузить XSLT файл" />
+      <String ID="40085" Data="Возникла ошибка при преобразовании активного документа при помощи выбранного XSLT файла." />
+      <String ID="40100" Data="&quot;%s&quot; не допустимое имя" />
+      <String ID="40101" Data="Не удалось создать файл с результатом преобразования." />      
+      <String ID="40199" Data="Документ соответствует схеме" />  
+      <String ID="40200" Data="Не правильные регистрационные данные." />
+      <String ID="40201" Data="Спасибо, что зарегестрировались." />
+      <String ID="40500" Data="&amp;Языки" />
+      <String ID="57600" Data="Создать новый документ" />
+      <String ID="57601" Data="Открыть существующий документ" />
+      <String ID="57602" Data="Закрыть текущий документ" />
+      <String ID="57603" Data="Сохранить текущий документ" />
+      <String ID="57604" Data="Сохранить текущий документ с новым именем" />
+      <String ID="57632" Data="Удалить выбранный элемент" />
+      <String ID="57634" Data="Скопировать выделенное в буфер обмена" />
+      <String ID="57635" Data="Вырезать выделенное в буфер обмена" />
+      <String ID="57637" Data="Вставить содержимое буфера обмена" />
+      <String ID="57643" Data="Отменить последнее действие" />
+      <String ID="57644" Data="Повторить отмененное действие" />
+    </Strings>
+    <Menus>
+      <Menu ID="128">
+        <MenuItem ID="-1" Data="&amp;Файл" Popup="1">
+          <MenuItem ID="57600" Data="&amp;Новый\tCtrl+N" />
+          <MenuItem ID="57601" Data="&amp;Открыть...\tCtrl+O" />
+          <MenuItem ID="57603" Data="&amp;Сохранить\tCtrl+S" />
+          <MenuItem ID="57604" Data="Сохранить &amp;как..." />
+          <MenuItem ID="32786" Data="Сохранить &amp;все\tCtrl+Shift+S" />
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="57602" Data="&amp;Закрыть\tCtrl+F4" />
+          <MenuItem ID="32788" Data="Закрыть в&amp;се" />
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="32900" Data="Недавние" Grayed="1" />
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="32773" Data="В&amp;ыйти" />
+        </MenuItem>
+        <MenuItem ID="-1" Data="&amp;Редактирование" Popup="1">
+          <MenuItem ID="57643" Data="&amp;Отменить\tCtrl+Z" />
+          <MenuItem ID="57644" Data="&amp;Повторить\tCtrl+Shift+Z" />
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="57635" Data="В&amp;ырезать\tCtrl+X" />
+          <MenuItem ID="57634" Data="&amp;Копировать\tCtrl+C" />
+          <MenuItem ID="57637" Data="&amp;Вставить\tCtrl+V" />
+          <MenuItem ID="57632" Data="&amp;Удалить\tDel" />
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="57636" Data="&amp;Поиск\tCtrl+F" />
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="32869" Data="Дубли&amp;ровать\tCtrl+D" />
+          <MenuItem ID="-1" Data="Копировать &amp;дополнительно" Popup="1">
+            <MenuItem ID="32811" Data="Копировать &amp;имя" />
+            <MenuItem ID="32812" Data="Копировать &amp;значение" />
+            <MenuItem ID="32891" Data="Копировать как &amp;XML" />
+            <MenuItem ID="32893" Data="Копировать X&amp;Path" />
+          </MenuItem>
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="32838" Data="Пере&amp;именовать\tF2" />
+          <MenuItem ID="32839" Data="Изменить з&amp;начение\tCtrl+F2" />
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="32863" Data="Вставить &amp;аттрибут" />
+          <MenuItem ID="-1" Data="Вставить &amp;элемент" Popup="1">
+            <MenuItem ID="32860" Data="&amp;До" />
+            <MenuItem ID="32861" Data="&amp;После" />
+            <MenuItem ID="32862" Data="как д&amp;очерний" />
+          </MenuItem>
+          <MenuItem ID="-1" Data="Вставить &amp;текст" Popup="1">
+            <MenuItem ID="32860" Data="&amp;До" />
+            <MenuItem ID="32861" Data="&amp;После" />
+            <MenuItem ID="32862" Data="как д&amp;очерний" />
+          </MenuItem>
+          <MenuItem ID="-1" Data="Вставить &amp;комментарий" Popup="1">
+            <MenuItem ID="32866" Data="&amp;До" />
+            <MenuItem ID="32867" Data="&amp;После" />
+            <MenuItem ID="32868" Data="как д&amp;очерний" />
+          </MenuItem>
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="-1" Data="Сдвин&amp;уть элемент" Popup="1">
+            <MenuItem ID="32870" Data="&amp;Вверх\tCtrl+Up" />
+            <MenuItem ID="32871" Data="В&amp;низ\tCtrl+Down" />
+          </MenuItem>
+        </MenuItem>
+        <MenuItem ID="-1" Data="&amp;Вид" Popup="1">
+          <MenuItem ID="-1" Data="&amp;Панели инструментов" Popup="1">
+            <MenuItem ID="32850" Data="Стандартная" />
+          </MenuItem>
+          <MenuItem ID="32774" Data="Сменить позицию вкладок" />
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="32814" Data="Показать префиксы" />
+        </MenuItem>
+        <MenuItem ID="-1" Data="&amp;Инструменты" Popup="1">
+          <MenuItem ID="32894" Data="&amp;Проверить по схеме..." />
+        </MenuItem>
+        <MenuItem ID="-1" Data="&amp;?" Popup="1">
+          <MenuItem ID="32881" Data="&amp;Домашняя страница" />
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="32883" Data="&amp;Зарегистрировать" />
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="202" Data="&amp;О программе..." />
+        </MenuItem>
+      </Menu>
+      <Menu ID="202">
+        <MenuItem ID="-1" Data="temp" Popup="1">
+          <MenuItem ID="57603" Data="&amp;Сохранить" />
+          <MenuItem ID="57602" Data="&amp;Закрыть" />
+          <MenuItem ID="32784" Data="Закрыть &amp;все кроме этой" />
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="32790" Data="Скопировать &amp;путь к документу" />
+          <MenuItem ID="32791" Data="Открыть папку &amp;содержащую документ" />
+        </MenuItem>
+      </Menu>
+      <Menu ID="203">
+        <MenuItem ID="-1" Data="temp" Popup="1">
+          <MenuItem ID="57635" Data="В&amp;ырезать\tCtrl+X" />
+          <MenuItem ID="57634" Data="&amp;Копировать\tCtrl+C" />
+          <MenuItem ID="57637" Data="&amp;Вставить\tCtrl+V" />
+          <MenuItem ID="57632" Data="&amp;Удалить\tDel" />
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="32869" Data="Дубли&amp;ровать\tCtrl+D" />
+          <MenuItem ID="-1" Data="Копировать &amp;дополнительно" Popup="1">
+            <MenuItem ID="32811" Data="Копировать &amp;имя" />
+            <MenuItem ID="32812" Data="Копировать &amp;значение" />
+            <MenuItem ID="32891" Data="Копировать как &amp;XML" />
+            <MenuItem ID="32893" Data="Копировать X&amp;Path" />
+          </MenuItem>
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="32838" Data="Пере&amp;именовать\tF2" />
+          <MenuItem ID="32839" Data="Изменить з&amp;начение\tCtrl+F2" />
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="32863" Data="Вставить &amp;аттрибут" />
+          <MenuItem ID="-1" Data="Вставить &amp;элемент" Popup="1">
+            <MenuItem ID="32860" Data="&amp;До" />
+            <MenuItem ID="32861" Data="&amp;После" />
+            <MenuItem ID="32862" Data="как д&amp;очерний" />
+          </MenuItem>
+          <MenuItem ID="-1" Data="Вставить &amp;текст" Popup="1">
+            <MenuItem ID="32866" Data="&amp;До" />
+            <MenuItem ID="32867" Data="&amp;После" />
+            <MenuItem ID="32868" Data="как д&amp;очерний" />
+          </MenuItem>
+          <MenuItem ID="-1" Data="Вставить &amp;комментарий" Popup="1">
+            <MenuItem ID="32866" Data="&amp;До" />
+            <MenuItem ID="32867" Data="&amp;После" />
+            <MenuItem ID="32868" Data="как д&amp;очерний" />
+          </MenuItem>
+          <MenuItem ID="-1" Data="-" />
+          <MenuItem ID="-1" Data="Сдвин&amp;уть элемент" Popup="1">
+            <MenuItem ID="32870" Data="&amp;Вверх\tCtrl+Up" />
+            <MenuItem ID="32871" Data="В&amp;низ\tCtrl+Down" />
+          </MenuItem>
+        </MenuItem>
+      </Menu>
+    </Menus>
+    <Dialogs>
+      <Dialog ID="211" X="0" Y="0" Width="278" Height="135" Style="2429026504" Caption="О программе STDU XMLEditor">
+        <Font Size="8" Name="MS Shell Dlg" Weight="400" />
+        <Control ID="1002" Style="268435469" ClassName="Static" Caption="" X="7" Y="7" Width="87" Height="81" />
+        <Control ID="-1" Style="268435456" SystemClass="130" Caption="Версия STDU XMLEditor:" X="105" Y="8" Width="80" Height="8" />
+        <Control ID="1003" Style="268435456" SystemClass="130" Caption="1.0.0.0" X="187" Y="8" Width="77" Height="8" />
+        <Control ID="-1" Style="268435472" ClassName="Static" Caption="" X="110" Y="19" Width="161" Height="1" />
+        <Control ID="-1" Style="268435456" SystemClass="130" Caption="Сайт:" X="105" Y="23" Width="32" Height="8" />
+        <Control ID="1004" Style="268435456" SystemClass="130" Caption="www.stdutility.com" X="180" Y="23" Width="100" Height="8" />
+        <Control ID="-1" Style="268435456" SystemClass="130" Caption="Поддержка:" X="105" Y="36" Width="50" Height="8" />
+        <Control ID="1005" Style="268435456" SystemClass="130" Caption="support@stdutility.com" X="180" Y="36" Width="100" Height="8" />
+        <Control ID="-1" Style="268435472" ClassName="Static" Caption="" X="110" Y="48" Width="161" Height="1" />
+        <Control ID="-1" Style="268435456" SystemClass="130" Caption="Копия принадлежит:" X="105" Y="53" Width="90" Height="8" />
+        <Control ID="1008" Style="268435456" SystemClass="130" Caption="" X="180" Y="53" Width="100" Height="8" />
+        <Control ID="1" Style="268500993" SystemClass="128" Caption="OK" X="221" Y="74" Width="50" Height="14" />
+        <Control ID="-1" Style="268435456" SystemClass="130" Caption="Warning: This computer program is protected by copyright law an international treaties. Unathorized reproduction or distribution of this program, or any portition " X="7" Y="93" Width="264" Height="16" />
+        <Control ID="-1" Style="268435456" SystemClass="130" Caption="of it, may result in severe civil and criminal penalries, and will be prosecuted to the maximum extent possible under the law." X="7" Y="109" Width="264" Height="16" />
+        <Control ID="-1" Style="268435464" ClassName="Static" Caption="" X="4" Y="91" Width="270" Height="36" />
+      </Dialog>
+      <Dialog ID="212" X="0" Y="0" Width="360" Height="105" Style="2429026504" ExtStyle="0" Caption="Введите регистрационную информацию">
+        <Font Size="8" Name="MS Shell Dlg" Weight="400" />
+        <Control ID="1002" Style="268435469" ClassName="Static" Caption="" X="6" Y="7" Width="87" Height="81" />
+        <Control ID="-1" Style="268435456" SystemClass="130" Caption="&amp;Имя пользователя:" X="105" Y="5" Width="249" Height="8" />
+        <Control ID="1008" Style="276889728" SystemClass="129" Caption="" X="117" Y="16" Width="237" Height="13" />
+        <Control ID="-1" Style="268435456" SystemClass="130" Caption="&amp;Электронная почта:" X="105" Y="30" Width="249" Height="8" />
+        <Control ID="1009" Style="276889728" SystemClass="129" Caption="" X="117" Y="41" Width="237" Height="13" />
+        <Control ID="-1" Style="268435456" SystemClass="130" Caption="&amp;Ключ:" X="105" Y="54" Width="249" Height="8" />
+        <Control ID="1010" Style="276889736" SystemClass="129" Caption="" X="117" Y="65" Width="237" Height="13" />
+        <Control ID="1021" Style="268500993" SystemClass="128" Caption="Купить" X="117" Y="84" Width="50" Height="14" />
+        <Control ID="1" Style="268500992" SystemClass="128" Caption="OK" X="248" Y="84" Width="50" Height="14" />
+        <Control ID="2" Style="268500992" SystemClass="128" Caption="Попробовать" X="304" Y="84" Width="50" Height="14" />
+      </Dialog>
+      <Dialog ID="214" X="0" Y="0" Width="194" Height="180" Style="-2134376248" ExtStyle="0" Caption="Поиск">
+        <Font Size="8" Weight="400" Name="MS Shell Dlg" />
+        <Control ID="1009" Style="1344340226" SystemClass="133" Caption="" X="3" Y="13" Width="188" Height="30" />
+        <Control ID="-1" Style="1342308352" SystemClass="130" Caption="Искать &amp;текст:" X="3" Y="3" Width="150" Height="8" />
+        <Control ID="-1" Style="1342177287" SystemClass="128" Caption="Иск&amp;ать в:" X="3" Y="30" Width="188" Height="70" />
+        <Control ID="1010" Style="1342242822" SystemClass="128" Caption="&amp;Везде" X="8" Y="43" Width="55" Height="10" />
+        <Control ID="1012" Style="1342242819" SystemClass="128" Caption="Названия &amp;элементов" X="8" Y="57" Width="90" Height="10" />
+        <Control ID="1013" Style="1342242819" SystemClass="128" Caption="Значения э&amp;лементов" X="100" Y="57" Width="90" Height="10" />
+        <Control ID="1014" Style="1342242819" SystemClass="128" Caption="Названия &amp;аттрибутов" X="8" Y="71" Width="90" Height="10" />
+        <Control ID="1015" Style="1342242819" SystemClass="128" Caption="Значения а&amp;ттрибутов" X="100" Y="71" Width="90" Height="10" />
+        <Control ID="1016" Style="1342242819" SystemClass="128" Caption="Комментарии" X="8" Y="85" Width="90" Height="10" />
+        <Control ID="-1" Style="1342177287" SystemClass="128" Caption="&amp;Настройки" X="3" Y="104" Width="188" Height="55" />
+        <Control ID="1017" Style="1342242819" SystemClass="128" Caption="Учитывать &amp;регистр" X="8" Y="116" Width="150" Height="10" />
+        <Control ID="1018" Style="1342242819" SystemClass="128" Caption="Только слово &amp;целиком" X="8" Y="130" Width="150" Height="10" />
+        <Control ID="1019" Style="1342242819" SystemClass="128" Caption="Искать &amp;вверх" X="8" Y="143" Width="150" Height="10" />
+        <Control ID="1020" Style="1342242817" SystemClass="128" Caption="&amp;Искать" X="87" Y="163" Width="50" Height="14" />
+        <Control ID="2" Style="1342242816" SystemClass="128" Caption="Отмена" X="141" Y="163" Width="50" Height="14" />
+      </Dialog>
+    </Dialogs>
+  </Language>
+</Languages>

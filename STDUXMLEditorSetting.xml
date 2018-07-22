@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Setting>
+	<General>
+		<Language ID=""/>
+		<RecentFileList MaxCount="5"/>
+		<TabsSetting Bottom="0" OneOpenDocShow="0" DblClickClose="0"/>
+	</General>
+	<SearchDialog/>
+	<TextComboHistory/>
+	<MainWindow Maximized="0"><Rect Left="661" Top="93" Right="1616" Bottom="758"/><TopToolbar Visible="1"/><BottomToolbar Visible="0"/></MainWindow>
+	<RecentFiles><File FilePath="C:\Users\Administrator\Desktop\2014-10-29_XMLEditor\STDUXMLEditorPortable\settings.xml"/></RecentFiles></Setting>
