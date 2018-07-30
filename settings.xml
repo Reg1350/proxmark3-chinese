@@ -22,16 +22,16 @@
         <item type="button" text="Send the original command" tooltip="按下按钮将原始命令发送到标签/卡片。" action0="hf 14a raw $readResponsea $calcCRCa $fieldona $fieldonsel $14at $14atimeout $bits $dataTextbox" />
         <item type="label" label="       Main ISO14443A Commands:       ------------------------------------------------------------------------------------------------------------------        30         = Read (usage: 30+1byte block number+2bytes ISO14443A-CRC - answer: 16bytes)       A2         = Write (usage: A2+1byte block number+4bytes data+2bytes ISO14443A-CRC - answer: 0A [ACK] or 00 [NAK])       52 (7bits) = WUPA (usage: 52(7bits) - answer: 2bytes ATQA)       93 20      = Anticollision (usage: 9320 - answer: 4bytes UID+1byte UID-bytes-xor)       93 70      = Select (usage: 9370+5bytes 9320 answer - answer: 1byte SAK)       50 00      = Halt (usage: 5000+2bytes ISO14443A-CRC - no answer from card)       40 (7bits) = Used to put Chinese Changeable UID cards in special mode (must be followed by 43 (8bits) - answer: 0A      ------------------------------------------------------------------------------------------------------------------" />
       </section>
-      <section title="14443一个收集uid" tooltip="Collect ISO14443A uid" uniqueId="14acuids" width="120">
+      <section title="14443A 收集uid" tooltip="Collect ISO14443A uid" uniqueId="14acuids" width="120">
         <item type="textbox" defaultValue="" tooltip="您要收集的uid数量。" uniqueId="dataUIDs" label="(Optional) Number of UIDs to collect (>0)" />
         <item type="button" text="收集uid" tooltip="按使用PM3作为ISO14443A阅读材料。" action0="hf 14a cuids $dataUIDs" />
       </section>
-      <section title="14443一个模拟" tooltip="To simulate the behavior of ISO14443A label (clone)." uniqueId="14asim">
+      <section title="14443A 模拟" tooltip="To simulate the behavior of ISO14443A label (clone)." uniqueId="14asim">
         <item type="drop-down" defaultValue="" values="1,2,3,4" tooltip="模式可以是:'1'=MIFARE Classic， '2'=MIFARE Ultralight， '3'=MIFARE DESFire， '4'=ISO/ iec14443 -4。" uniqueId="14atype" label="Mode" width="30" />
         <item type="textbox" defaultValue="" tooltip="UID值来模拟" uniqueId="14auid" label="UID:" width="120" />
         <item type="button" text="模拟" tooltip="按模拟ISO14443A标签-按PM3按钮停止模拟!" action0="hf 14a sim $14atype $14auid" />
       </section>
-      <section title="14443一个Busybody." tooltip="窃听ISO14443 TypeA沟通" uniqueId="14asn">
+      <section title="14443A Busybody." tooltip="窃听ISO14443 TypeA沟通" uniqueId="14asn">
         <item type="button" text="Busybody." tooltip="媒体窃听通信;监测数据将使PM3绿色开启;按PM3按钮1次停止窥探。" action0="hf 14a snoop" />
         <item type="label" label=" 嗅嗅 the communication between a reader and a tag. The communication from both directions is captured and stored in a buffer (BigBuf) on the Proxmark and can be downloaded by hi14alist. By default,  the Proxmark waits for communication to occur which means that it will 'hang' forever if nothing happens. You can press the button on the device to stop acquisition and get back to the command line. The command  hi14asnoop starts sniffing the communication between a reader and card until the buffer is full. Below is  the result of the sniffing captured by executing hi14alist. The result shows the repeated anticollision  loop. This indicates that the reader is just polling if the card is still there.  This anticollision loop walks through the following states :  Reader : 26 to Card : 04 00 The reader sends an REQA (Request for type A) message                             on which the card responded with its type. Reader : 93 20 from Card : 2a 69 8c 43 8c The reader starts the anticollision to select                             a card and requests its UID. The card responded with its UID. The last                             byte is the so-called BCC18 and is the result of XOR-ing the first four UID-bytes. Reader : 93 70 2a 69 8c 43 8c to Card : 08 b6 dd The reader selects the desired card by sending                             93 70 followed by the UID of the card. If the card is successfully selected it                             will response with a SAK19 which means that the card is now ready to handle commands                             of the higher layer protocol. The SAK consists of one byte (08) that indicates the                             card type and is followed by two CRC bytes. " />
       </section>
@@ -71,31 +71,31 @@
             <section title="经典的标签" tooltip="MiFare MINI，经典(1K)， 2K, 4K。">
               <section title="读块" tooltip="读取标准的Mifare卡块。" uniqueId="mfrdsc">
                 <item type="drop-down" defaultValue="" values="0:63" tooltip="批号来读。值在0到63之间。" uniqueId="mfblkn" label="Block Number:" width="40" />
-                <item type="drop-down" defaultValue="" values="A,B" tooltip="使用的关键。A =使用KeyA,B = KeyB使用" uniqueId="mfkey" label="Key to Use:" width="30" />
+                <item type="drop-down" defaultValue="" values="A,B" tooltip="使用的密钥。A =使用KeyA,B = KeyB使用" uniqueId="mfkey" label="Key to Use:" width="30" />
                 <item type="textbox" defaultValue="FFFFFFFFFFFF" tooltip="键值(12十六进制字符)" uniqueId="mfkeyvalue" label="Key Value:" />
                 <item type="button" text="读块" tooltip="按下读取选定块。" action0="hf mf rdbl $mfblkn $mfkey $mfkeyvalue" />
                 <item type="label" label="       -------------------------------------------------------------            Command execution example:              proxmark3> hf mf rdbl 4 B FFFFFFFFFFFF       --block no:04 key type:01 key:ff ff ff ff ff ff                   #db# 读块 FINISHED                        isOk:01 data:00 00 03 10 d1 01 0c 54 02 65 6e 32 32 32 32 32         -------------------------------------------------------------" />
               </section>
               <section title="写块" tooltip="阅读标准的Mifare卡块。" uniqueId="mfwrsc">
                 <item type="drop-down" defaultValue="" values="0:63" tooltip="块编号写。值在0到63之间。" uniqueId="mfblkn" label="Block Number; WARNING: blocks 3,7,11,15,19,23,27,31,35,39,43,47,51,55,59 and 63 contains keys and security !!!" width="40" />
-                <item type="drop-down" defaultValue="" values="A,B" tooltip="使用的关键。A =使用KeyA,B = KeyB使用" uniqueId="mfkey" label="Key to Use:" width="30" />
+                <item type="drop-down" defaultValue="" values="A,B" tooltip="使用的密钥。A =使用KeyA,B = KeyB使用" uniqueId="mfkey" label="Key to Use:" width="30" />
                 <item type="textbox" defaultValue="FFFFFFFFFFFF" tooltip="键值(12十六进制字符)" uniqueId="mfkeyvalue" label="Key Value:" />
                 <item type="textbox" defaultValue="" tooltip="数据值(32个十六进制字符)" uniqueId="mfdata" label="Data to be written (ex. 000102030405060708090A0B0C0D0E0F):" width="215" />
                 <item type="button" text="写块" tooltip="按下写入选定块。" action0="hf mf wrbl $mfblkn $mfkey $mfkeyvalue $mfdata" />
                 <item type="label" label="       -------------------------------------------------------------------------            Command execution example:              proxmark3> hf mf wrbl 24 B FFFFFFFFFFFF 00000000000000000000000000000000       --block no:18 key type:01 key:ff ff ff ff ff ff                  --data: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00                  #db# 写块 FINISHED                  isOk:01         -------------------------------------------------------------------------" />
               </section>
-              <section title="阅读部门" tooltip="阅读标准的Mifare卡片行业。" uniqueId="mfrdblk">
-                <item type="drop-down" defaultValue="" values="0:15" tooltip="部门的数字阅读。值在0到15之间。" uniqueId="mfscn" label="Block Number:" width="40" />
-                <item type="drop-down" defaultValue="" values="A,B" tooltip="使用的关键。A =使用KeyA,B = KeyB使用" uniqueId="mfkey" label="Key to Use:" width="30" />
+              <section title="阅读扇区" tooltip="阅读标准的Mifare卡片行业。" uniqueId="mfrdblk">
+                <item type="drop-down" defaultValue="" values="0:15" tooltip="扇区的数字阅读。值在0到15之间。" uniqueId="mfscn" label="Block Number:" width="40" />
+                <item type="drop-down" defaultValue="" values="A,B" tooltip="使用的密钥。A =使用KeyA,B = KeyB使用" uniqueId="mfkey" label="Key to Use:" width="30" />
                 <item type="textbox" defaultValue="FFFFFFFFFFFF" tooltip="键值(12十六进制字符)" uniqueId="mfkeyvalue" label="Key Value:" />
-                <item type="button" text="阅读部门" tooltip="按下读取选定块。" action0="hf mf rdsc $mfscn $mfkey $mfkeyvalue" />
-                <item type="label" label="       -----------------------------------------------------        Command execution example:              proxmark3> hf mf rdsc 15 B FFFFFFFFFFFF       --sector no:0f key type:01 key:ff ff ff ff ff ff                   #db# 阅读部门 FINISHED                        isOk:01                 data:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00                  data:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00                  data:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00                  data:00 00 00 00 00 00 7f 07 88 40 00 00 00 00 00 00              -----------------------------------------------------" />
+                <item type="button" text="阅读扇区" tooltip="按下读取选定块。" action0="hf mf rdsc $mfscn $mfkey $mfkeyvalue" />
+                <item type="label" label="       -----------------------------------------------------        Command execution example:              proxmark3> hf mf rdsc 15 B FFFFFFFFFFFF       --sector no:0f key type:01 key:ff ff ff ff ff ff                   #db# 阅读扇区 FINISHED                        isOk:01                 data:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00                  data:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00                  data:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00                  data:00 00 00 00 00 00 7f 07 88 40 00 00 00 00 00 00              -----------------------------------------------------" />
               </section>
               <section title="黑客" tooltip="非接触式读卡器黑客工具">
                 <section title="试样的钥匙" tooltip="测试一个标准的Mifare卡片，带有默认的/常见的/已知的密钥。" uniqueId="tstmf">
                   <item type="drop-down" defaultValue="*" values="0:255" tooltip="批号进行测试。1k的值在0到63之间，4k的值在0到255之间;‘*’=" uniqueId="blktestn" label="Block Number:" width="40" />
-                  <item type="drop-down" defaultValue="?" values="?,A,B" tooltip="使用的关键。”?'=使用KeyA， 'B'=使用KeyB。" uniqueId="mfkey" label="Key to Use:" width="30" />
-                  <item type="textbox" defaultValue="" tooltip="测试的关键值(12十六进制字符)" uniqueId="mfkeyvaluetest" label="Key to Test (leave blank if unknown):" />
+                  <item type="drop-down" defaultValue="?" values="?,A,B" tooltip="使用的密钥。”?'=使用KeyA， 'B'=使用KeyB。" uniqueId="mfkey" label="Key to Use:" width="30" />
+                  <item type="textbox" defaultValue="" tooltip="测试的密钥值(12十六进制字符)" uniqueId="mfkeyvaluetest" label="Key to Test (leave blank if unknown):" />
                   <item type="textbox" defaultValue="" tooltip="编写字典文件名(.dic)" uniqueId="mfkeydictest" label="Write down dictionary file name (.dic) (leave blank if not available):" />
                   <item type="checkbox" valueChecked="d" valueUnchecked="" defaultValue="unchecked" tooltip="如果选中过，找到的密钥将被转储到dumpkeys.bin。" uniqueId="dumpk" label="Dump keys to dumpkeys.bin" />
                   <item type="button" text="测试键" tooltip="按按钮测试键:使用这个方法找到的任何键，用“嵌套攻击”来检索其他扇区键!" action0="hf mf chk $blktestn $mfkey $mfkeyvaluetest $mfkeydictest $dumpk" label="Hit below button and wait!" />
@@ -107,10 +107,10 @@
                 <section title="嵌套的攻击" tooltip="使用嵌套身份验证测试标准的Mifare卡。" uniqueId="nested">
                   <item type="drop-down" defaultValue="1" values="1,2,3,4" tooltip="卡类型;' 0 ' =迷你,' 1 ' = 1 k,' 2 ' = U2K,4 = 4 k,k = 1任何其他值" uniqueId="mftype" label="Mifare Tag Type:" width="30" />
                   <item type="drop-down" defaultValue="0" values="0:63" tooltip="批号进行测试。值在0到63之间。" uniqueId="mfblkn" label="Block Number:" width="40" />
-                  <item type="drop-down" defaultValue="A" values="A,B" tooltip="使用的关键;A =使用KeyA,B = KeyB使用" uniqueId="mfkey" label="Key to Test:" width="30" />
+                  <item type="drop-down" defaultValue="A" values="A,B" tooltip="使用的密钥;A =使用KeyA,B = KeyB使用" uniqueId="mfkey" label="Key to Test:" width="30" />
                   <item type="textbox" defaultValue="" tooltip="Key value to test (found with 'dark side' or with 'sample Key ')" uniqueId="mfkeyvaluetest" label="Key Value (found with '黑暗面的攻击' or with '试样的钥匙'):" width="90" />
                   <item type="drop-down" defaultValue="" values="0:63" tooltip="批号进行测试。值在0到63之间。" uniqueId="mfblkntarget" label="Target Block Number (optional - leave blank if unknown):" width="40" />
-                  <item type="drop-down" defaultValue="" values="A,B" tooltip="使用的关键;A =使用KeyA,B = KeyB使用" uniqueId="mfkeytarget" label="Target Key (optional - leave blank if unknown):" width="30" />
+                  <item type="drop-down" defaultValue="" values="A,B" tooltip="使用的密钥;A =使用KeyA,B = KeyB使用" uniqueId="mfkeytarget" label="Target Key (optional - leave blank if unknown):" width="30" />
                   <item type="drop-down" defaultValue="" values=" ,t,d" tooltip="'t'=将键转换为模拟器内存，'d'=写入二进制文件的键(dumpkyes.bin)" uniqueId="mfwheredump" label="Select where to copy keys (optional - leave blank if none):" width="30" />
                   <item type="button" text="START nested attacks." tooltip="按下按钮后，看看是否可以找到其他的键!" action0="hf mf nested $mftype $mfblkn $mfkey $mfkeyvaluetest $mfblkntarget $mfkeytarget $mfwheredump" label="Hit below button and wait!" />
                 </section>
@@ -201,7 +201,7 @@
                     <item type="textbox" label="转储文件的名字:" defaultValue="" tooltip="Type 转储文件的名字 (.eml) to save:" uniqueId="mfeloadfile" width="100" />
                     <item type="button" text="保存到文件" tooltip="按下按钮保存转储文件。" action0="hf mf esave $mfeloadfile" />
                   </section>
-                  <section title="填补模拟器记忆" tooltip="从卡片仿真器内存中提取关键的模拟内存。" uniqueId="mfecfil">
+                  <section title="填补模拟器记忆" tooltip="从卡片仿真器内存中提取密钥的模拟内存。" uniqueId="mfecfil">
                     <item type="drop-down" defaultValue="A" values="A,B" tooltip="Key to Transfer; 'A'=Transfer KeyA, 'B'=Transfer KeyB" uniqueId="mfkey" label="Key to Transfer:" width="30" />
                     <item type="drop-down" defaultValue="1" values="0,1,2,4" tooltip="标签内存大小" uniqueId="mftsize" label="Memory Size (Kb):" width="30" />
                     <item type="button" text="TRANSFER data" tooltip="Press button to transfer keys from cards emulator memory" action0="hf mf ecfill $mfkey $mftsize" />
@@ -230,9 +230,9 @@
                 <item type="checkbox" valueChecked="-w" valueUnchecked="" defaultValue="unchecked" tooltip="Wipe card before write" uniqueId="wipe" text="(可选)在书写前擦除卡片。" />
                 <item type="button" text="写块" tooltip="Press button to write selected block" action0="hf mf csetblk $chnblkn $blkhex $wipe" />
               </section>
-              <section title="阅读部门" tooltip="阅读特殊中国卡片的扇区。" uniqueId="chinrdblk">
-                <item type="drop-down" defaultValue="" values="0:15" tooltip="部门的数字阅读。值在0到15之间。" uniqueId="chnscn" label="Sector Number:" width="40" />
-                <item type="button" text="阅读部门" tooltip="Press button to read selected sector" action0="hf mf cgetsc $chnscn" />
+              <section title="阅读扇区" tooltip="阅读特殊中国卡片的扇区。" uniqueId="chinrdblk">
+                <item type="drop-down" defaultValue="" values="0:15" tooltip="扇区的数字阅读。值在0到15之间。" uniqueId="chnscn" label="Sector Number:" width="40" />
+                <item type="button" text="阅读扇区" tooltip="Press button to read selected sector" action0="hf mf cgetsc $chnscn" />
               </section>
               <section title="负载转储" tooltip="一种特殊的中国卡的卸载。" uniqueId="chinload">
                 <item type="checkbox" valueChecked="e" valueUnchecked="" defaultValue="" tooltip="Check to load from emulator memory" uniqueId="modeTextboxChnload" label="Load From Emulator Memory:" />
