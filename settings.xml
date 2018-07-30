@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pm3>
-  <section title="高频(高频)" tooltip="高频率函数/命令">
-    <section title="ISO14443A" tooltip="管理ISO14443A标签(例如:MIFARE)">
-      <section title="ISO14443A历史" tooltip="ISO14443A历史" uniqueId="14ahis">
-        <item type="checkbox" valueChecked="f" valueUnchecked="" defaultValue="unchecked" tooltip="如果选中，显示帧延迟时间。" uniqueId="14af" text="如果选中，显示帧延迟时间。" />
-        <item type="checkbox" valueChecked="c" valueUnchecked="" defaultValue="unchecked" tooltip="如果选中，将crc置于[crc]之间" uniqueId="14ac" text="如果选中，将crc置于[crc]之间" />
-        <item type="button" text="阅读ISO14443A历史" tooltip="阅读ISO14443A历史。" action0="hf list 14a $14af $14ac" />
+  <section tooltip="冰人固件" title="冰人固件">
+    <section title="高频(高频)" tooltip="高频率函数/命令">
+      <section title="hardnested" tooltip="hardnested " uniqueId="hardnested ">
+        <item type="textbox" defaultValue="" tooltip="超时时间(毫秒)" uniqueId="block" label="block" width="180" />
+        <item type="textbox" defaultValue="A" tooltip="密码类型" uniqueId="type" label="type" width="180" />
+        <item type="textbox" defaultValue="FFFFFFFFFFFF" tooltip="密码" uniqueId="password" label="password" width="380" />
+        <item type="checkbox" valueChecked="w" valueUnchecked="" defaultValue="unchecked" tooltip="结尾加W  含义收集随机数并把他们写到二进制文件nonces.bin" uniqueId="w" text="结尾加W  含义收集随机数并把他们写到二进制文件nonces.bin" />
+        <item type="checkbox" valueChecked="s" valueUnchecked="" defaultValue="unchecked" tooltip="结尾加S  针对收集不到随机数的卡 进行破解" uniqueId="s" text="结尾加S  针对收集不到随机数的卡 进行破解" />
+        <item type="checkbox" valueChecked="r" valueUnchecked="" defaultValue="unchecked" tooltip="结尾加R  利用收集的随机数恢复W的破解进程 " uniqueId="r" text="结尾加R  利用收集的随机数恢复W的破解进程 " />
+        <item type="button" text="hardnested " tooltip="hardnested " action0="hf mf hardnested $r  $block $type $password 0 B $w $s " />
       </section>
       <section title="ISO14443A读卡器" tooltip="作为ISO14443A读卡器" uniqueId="14areader">
         <item type="button" text="作为ISO14443A读卡器" tooltip="作为ISO14443A读卡器" action0="hf 14a reader" />
@@ -335,6 +339,8 @@
         <item type="button" text="帮助" tooltip="Press to obtain the help info." action0="hf 14a help" />
       </section>
     </section>
+  </section>
+  <section title="高频(高频)" tooltip="高频率函数/命令">
     <section title="ISO14443B" tooltip="管理 ISO14443B 标记 (ex。SRIX4K)">
       <section title="14443B The list of" tooltip="ISO14443B历史The list of" uniqueId="14bhis">
         <item type="checkbox" valueChecked="f" valueUnchecked="" defaultValue="unchecked" tooltip="如果选中，也显示帧延迟时间。" uniqueId="14bf" text="检查也显示帧延迟时间。" />
@@ -615,6 +621,7 @@
       <item type="checkbox" valueChecked="u" valueUnchecked="" defaultValue="unchecked" tooltip="If checked, client will search for unknown tags" uniqueId="lfunk" text="检查未知标签(原始fsk, ask/man和PSK1)" />
       <item type="button" text="搜索" label="" tooltip="Press button to search a tag and plot results" action0="lf search $lfchkbuf $lfunk" />	&gt;		
 		
+      
       <item type="label" label=" ================================================================= Example:  proxmark3> lf search u #db# Sampling config:                   #db#   [q] divisor:           95                   #db#   [b] bps:               8                   #db#   [d] decimation:        1                   #db#   [a] averaging:         1                   #db#   [t] trigger threshold: 0                   #db# Done, saved 40000 out of 40000 seen samples at 8 bits/sample                  #db# buffer samples: ff ff ff ff ff ff ff ff ...                  Reading 20000 bytes from device memory Data fetched           Samples @ 8 bits/smpl, decimation 1:1            NOTE: some demods output possible binary   if it finds something that looks like a tag           False Positives ARE possible Checking for known tags: Using Clock: 64 - Invert: 0 - Bits Found: 313           EM410x pattern found:            EM TAG ID    : 0e003023cb           Unique TAG ID: 70000cc4d3           DEZ 8        : 03154891           DEZ 10       : 0003154891           DEZ 5.5      : 00048.09163           DEZ 3.5A     : 014.09163           DEZ 14/IK2   : 00060132697035           DEZ 15/IK3   : 000481037173971           Other        : 09163_048_03154891           Valid EM410x ID Found!" /></section>
       <section title="研究低频" tooltip="研究一个低频未知的标签。" uniqueId="lfinv">
         <item type="label" label="Press button to read a 125kHz unknown tag, collect samples,    plot them (in a new window) and save them in \investigated.txt file" />
@@ -1160,13 +1167,7 @@
     <section title="exit" tooltip="退出" uniqueId="99">
       <item type="button" text="exit" tooltip="Press button to exit PM3 client (after this you need to re-select COM port to re-use PM3)" action0="exit" />
     </section>
-      <section title="关于——汉化团队" tooltip="关于" uniqueId="910">
-     <item type="label" label="
-     本项目是开源项目
-     项目地址：https://github.com/w1109790800/proxmark3-chinese
-     欢迎加入Proxmark3-汉化团队，群号码：371012605
-
-     " />
-      </section>
-    
+    <section title="关于——汉化团队" tooltip="关于" uniqueId="910">
+      <item type="label" label="      本项目是开源项目      项目地址：https://github.com/w1109790800/proxmark3-chinese      欢迎加入Proxmark3-汉化团队，群号码：371012605       " />
+    </section>
   </pm3>
