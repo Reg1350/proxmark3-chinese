@@ -1,0 +1,22 @@
+help             This help
+help             This help
+help             This help
+help             This help
+help             This help. Use '<command> help' for details of a particular command.
+data             { Plot window / data buffer manipulation... }
+hf               { High Frequency commands... }
+hw               { Hardware commands... }
+lf               { Low Frequency commands... }
+script           { Scripting commands }
+quit             Exit program
+exit             Exit program
+help             This help
+14a              { ISO14443A RFIDs... }
+14b              { ISO14443B RFIDs... }
+15               { ISO15693 RFIDs... }
+epa              { German Identification Card... }
+iclass           { ICLASS RFIDs... }
+mf               { MIFARE RFIDs... }
+mfu              { MIFARE Ultralight RFIDs... }
+list             List protocol data in trace buffer
+help             This help
