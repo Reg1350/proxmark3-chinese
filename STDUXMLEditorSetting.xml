@@ -7,5 +7,5 @@
 	</General>
 	<SearchDialog/>
 	<TextComboHistory/>
-	<MainWindow Maximized="0"><Rect Left="661" Top="93" Right="1616" Bottom="758"/><TopToolbar Visible="1"/><BottomToolbar Visible="0"/></MainWindow>
-	<RecentFiles><File FilePath="C:\Users\Administrator\Desktop\2014-10-29_XMLEditor\STDUXMLEditorPortable\settings.xml"/></RecentFiles></Setting>
+	<MainWindow Maximized="0"><Rect Left="481" Top="92" Right="1436" Bottom="757"/><TopToolbar Visible="1"/><BottomToolbar Visible="0"/></MainWindow>
+	<RecentFiles><File FilePath="C:\Users\Administrator\Desktop\proxmark3-translate\settings.xml"/><File FilePath="C:\Users\Administrator\Desktop\2014-10-29_XMLEditor\STDUXMLEditorPortable\settings.xml"/></RecentFiles></Setting>
